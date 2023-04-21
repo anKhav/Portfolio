@@ -1,9 +1,14 @@
 .section{
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh;
   padding: 20px;
 }
 .main{
-  margin-top: 70px;
+  margin-top: 90px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title{
+  flex:  1 0 100%;
 }

@@ -5,7 +5,6 @@ import {header, nav, link, container,toggler, toggler__content, open} from './he
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
-    console.log(isOpen);
     return (
         <header className={header}>
             <div className={container}>
