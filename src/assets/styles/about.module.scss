@@ -57,14 +57,44 @@
   text-align: center;
 }
 .img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   background: url("../../images/IMG_2939.jpg") 58% 40% no-repeat;
   background-size: 300%;
 }
 .img__wrapper{
   display: flex;
-  flex: 1 0 50%;
+  flex: 1 0 calc(50% - 20px);
   margin-top: 30px;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .img__wrapper{
+    flex:1 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+  }
+  .socials{
+    order: 2;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .about{
+    order: 4;
+    flex:1 1 100%;
+  }
+  .title{
+    text-align: center;
+    flex: 1 0 100%;
+    order: 3;
+  }
+  .stack{
+    order: 5;
+  }
+  .knowledge{
+    order: 6;
+  }
 }

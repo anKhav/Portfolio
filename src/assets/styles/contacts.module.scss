@@ -1,0 +1,24 @@
+.title{
+  width: 100%;
+  text-align: center;
+}
+.email{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #525252;
+  transition: .4s;
+  &:hover{
+    color: #0a64c1;
+    transition: .4s;
+  }
+}
+.link{}
+.socials{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

@@ -1,10 +1,25 @@
 import React from 'react';
 import Layout from "../components/layout/layout";
+import Project from "../components/project/Project";
+import {projectsData} from '../data/projects.js'
+import {projects} from '../assets/styles/projects.module.scss'
 
 const Projects = () => {
     return (
-        <Layout pageTitle="About">
-            <p>Projects</p>
+        <Layout pageTitle="Projects">
+            <div className={projects}>
+                {
+                    projectsData.map(project => {
+                        return <Project
+                            title={project.title}
+                            description={project.description}
+                            image={project.image}
+                            siteUrl={project.siteUrl}
+                            repoUrl={project.repoUrl}
+                        />
+                    })
+                }
+            </div>
         </Layout>
     );
 };
