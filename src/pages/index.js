@@ -54,7 +54,6 @@ const About = () => {
                         </a>
                     </li>
                 </ul>
-                {/*<img src="/IMG_2939.jpg" alt="" />*/}
                 <div className={img__wrapper}><div className={img}></div></div>
                 <p className={about}>
                     I am a skilled JavaScript developer. Highly passionate in creating

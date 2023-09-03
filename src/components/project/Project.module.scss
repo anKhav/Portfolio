@@ -9,8 +9,10 @@
   justify-content: space-between;
   margin-bottom: 40px;
   box-shadow: 0 4px 20px 0 #cecece;
+  gap: 40px;
 }
 .content {
+  width: calc(50% - 20px);
 }
 .titleP {
   font-size: 24px;
@@ -24,6 +26,7 @@
 .img__wrapper {
   max-width: 400px;
   position: relative;
+  width: calc(50% - 20px);
   &:hover .overlay {
     opacity: 1;
     transition: 0.4s;
@@ -41,7 +44,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   gap: 10px;
   transition: 0.4s;
 }
