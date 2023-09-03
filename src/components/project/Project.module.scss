@@ -76,10 +76,12 @@
     flex: 1 0 100%;
     order: 2;
     margin-top: 20px;
+    width: 100%;
   }
   .img__wrapper {
     order: 1;
     max-width: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
