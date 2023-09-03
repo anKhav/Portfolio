@@ -17,4 +17,13 @@ export const projectsData = [
     siteUrl: "https://reenbit-test-rick-morty-git-master-ankhav.vercel.app/",
     repoUrl: "https://github.com/anKhav/reenbit-test-rick-morty",
   },
+  {
+    title: "Fox Store",
+    description: "Site are created on the Foxminded vanilla javascript final task instructions.",
+    image: "/foxminded-store.png",
+    dateStart: "3.08.2023",
+    dateEnd: "29.08.2023",
+    siteUrl: "https://ankhav-foxminded-store.netlify.app/",
+    repoUrl: "https://github.com/anKhav/foxminded-vanillaJS/tree/main/Task2.8",
+  },
 ];
