@@ -1,16 +1,7 @@
 export const projectsData = [
   {
-    title: "X-course task",
-    description: "Project from Ciklum React frontend course.",
-    image: "/x-course-task-screen.jpg",
-    dateStart: "11.02.2023",
-    dateEnd: "06.03.2023",
-    siteUrl: "https://x-course-task.vercel.app/",
-    repoUrl: "https://github.com/anKhav/x-course-task",
-  },
-  {
     title: "Test task Rick'n'Morty",
-    description: "Tesk task for reenbit inership.",
+    description: "Tesk task for Reenbit internship.",
     image: "/rick-morty-screen.jpg",
     dateStart: "12.03.2023",
     dateEnd: "20.03.2023",
@@ -19,7 +10,7 @@ export const projectsData = [
   },
   {
     title: "Countries",
-    description: "Site are created on the Foxminded vanilla javascript task instructions. Used JS classes.",
+    description: "Vanilla JavaScript application based on open countries API.",
     image: "/foxminded-countries.png",
     dateStart: "27.07.2023",
     dateEnd: "01.08.2023",
@@ -28,7 +19,7 @@ export const projectsData = [
   },
   {
     title: "Fox Store",
-    description: "Site are created on the Foxminded vanilla javascript final task instructions.",
+    description: "Vanilla JavaScript single-page application.",
     image: "/foxminded-store.png",
     dateStart: "3.08.2023",
     dateEnd: "29.08.2023",
